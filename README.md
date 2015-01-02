@@ -1,6 +1,6 @@
-# Android View Hover
+# Android View Hover [![Build Status](https://travis-ci.org/daimajia/AndroidViewHover.svg)](https://travis-ci.org/daimajia/AndroidViewHover)
 
-In my opinion, jump to a new activity to show your menu is a kind of wasting time and life.
+In my opinion, jumping to a new activity to show your menu is a kind of wasting time and life.
 
 So,
 
@@ -39,7 +39,7 @@ dependencies {
 	compile 'com.nineoldandroids:library:2.4.0'
 	compile 'com.daimajia.easing:library:1.0.0@aar'
 	compile 'com.daimajia.androidanimations:library:1.1.2@aar'
-	compile 'com.daimajia.androidviewhover:library:1.0.0@aar'
+	compile 'com.daimajia.androidviewhover:library:1.0.3@aar'
 }
 ```
 
@@ -66,17 +66,18 @@ dependencies {
 	<dependency>
 	    <groupId>com.daimajia.androidviewhover</groupId>
 	    <artifactId>library</artifactId>
-	    <version>1.0.0</version>
+	    <version>1.0.3</version>
 	    <type>apklib</type>
 	</dependency>
 ```
 
 
 #### Eclipse
-
+- SupportLibrary v4
 - [NineOldAndroids-2.4.0](https://github.com/downloads/JakeWharton/NineOldAndroids/nineoldandroids-2.4.0.jar)
 - [AndroidViewAnimations-1.1.2](https://github.com/daimajia/AndroidViewAnimations/releases/download/v1.1.2/AndroidViewAnimations-1.1.2.jar)
 - [AndroidEasingFunctions-1.0.0](https://github.com/daimajia/AndroidViewAnimations/releases/download/v1.0.6/AndroidEasingFunctions-1.0.0.jar)
+- [AndroidViewHover-1.0.3](https://github.com/daimajia/AndroidViewHover/releases/download/v1.0.3/AndroidViewHover-v1.0.3.jar)
 
 ### Step2
 
@@ -120,6 +121,10 @@ dependencies {
 	```
 
 You can view the samples in my [preset examples](https://github.com/daimajia/AndroidViewHover/blob/master/demo/src/main/java/com/daimajia/androidviewhover/demo/MainActivity.java).
+
+# Animations
+
+This project provides a lot of animations you can choose. Animations are from my another open-source project [AndroidViewAnimations](https://github.com/daimajia/AndroidViewAnimations#effects). And you can aslo using [easing funcitons](https://github.com/daimajia/AnimationEasingFunctions) to make your animations more real. Please enjoy it.
 
 # Thanks
 
